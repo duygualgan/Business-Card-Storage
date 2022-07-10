@@ -1,5 +1,9 @@
 <resources>
-    <string name="app_name">CookBook</string>
+    <string name="app_name">Business Card Storage</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="tarifciklama">Açıklama Giriniz</string>
+    <string name="tarifIsim">Kart İsmi Giriniz</string>
+
 </resources>

@@ -3,6 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/btn_kaydet.xml" value="0.27" />
+        <entry key="app/src/main/res/drawable/camera.xml" value="0.27" />
+        <entry key="app/src/main/res/drawable/recycler_btn.xml" value="0.27" />
+        <entry key="app/src/main/res/drawable/tap_here_btn.xml" value="0.27" />
+        <entry key="app/src/main/res/drawable/top_rounder.xml" value="0.27" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_liste.xml" value="0.35625" />
         <entry key="app/src/main/res/layout/fragment_tarif.xml" value="0.35625" />
@@ -16,5 +21,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.35625" />
+      </ProjectState>
+    </option>
   </component>
 </project>

@@ -8,6 +8,7 @@ import android.content.Intent
 import android.content.pm.PackageManager
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
+import android.graphics.Camera
 import android.graphics.ImageDecoder
 import android.net.Uri
 import android.os.Build
@@ -58,6 +59,7 @@ class TarifFragment : Fragment() {
 
         binding.imageView.setOnClickListener {
             gorselSec(it)
+
         }
 
         arguments?.let {
@@ -69,7 +71,7 @@ class TarifFragment : Fragment() {
                 binding.cookMalzemeText.setText("")
                 binding.kaydet.visibility = View.VISIBLE
 
-                val gorselsecmearkaplanı = BitmapFactory.decodeResource(context?.resources, R.drawable.click)
+                val gorselsecmearkaplanı = BitmapFactory.decodeResource(context?.resources, R.drawable.tap_here)
                 binding.imageView.setImageBitmap(gorselsecmearkaplanı)
 
 
@@ -173,7 +175,6 @@ class TarifFragment : Fragment() {
             }
         }
 
-
     }
 
     override fun onRequestPermissionsResult(
@@ -246,5 +247,53 @@ class TarifFragment : Fragment() {
 
     }
 
+    /*private fun CameraPermission(){
+        Dexter.withContext(this)
+            .withPermission(
+                android.Manifest.permission.CAMERA).withListener(
+
+                object  : DexterBuilder.SinglePermissionListener {
+                    override fun onPermissionsChecked(report: MultiplePermissionsReport?) {
+
+                        report?.let{
+
+
+                            if (report.areAllPermissionsGranted()){
+                                Camera
+                            }
+                        }
+                    }
+
+                    override fun onPermissionRationaleShouldBeShown(
+                        p0: MutableList<PermissionRequest>?,
+                        p1: PermissionToken?
+                    ) {
+                        TODO("Not yet implemented")
+                    }
+
+
+                }
+            )
+    }*/
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
